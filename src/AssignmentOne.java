@@ -2,7 +2,7 @@ public class AssignmentOne {
     public static void main(String[] args) {
         // Part 3 – Using classes and objects
 
-        // 创建三个全科医生对象
+        // Create three general practitioner objects
         GeneralPractitioner gp1 = new GeneralPractitioner();
         gp1.setID(1);
         gp1.setName("Dr. Lily");
@@ -21,7 +21,7 @@ public class AssignmentOne {
         gp3.setDepartment("General Practice");
         gp3.setAcceptsChildren(true);
 
-        // 创建两个急诊科医生对象
+        // Create two emergency department doctor objects
         EmergencyPhysician ep1 = new EmergencyPhysician();
         ep1.setID(4);
         ep1.setName("Dr. Davis");
@@ -34,7 +34,7 @@ public class AssignmentOne {
         ep2.setDepartment("Emergency Medicine");
         ep2.setSpecialty("Critical Care");
 
-        // 打印所有健康专业人员的详细信息
+        // Print details for all health professionals
         System.out.println("General Practitioner 1 Details:");
         gp1.printDetails();
 
@@ -50,7 +50,7 @@ public class AssignmentOne {
         System.out.println("\nEmergency Physician 2 Details:");
         ep2.printDetails();
 
-        // 添加分隔线
-        System.out.println("------------------------------");
+        System.out.println("------------------------------"); 
+        
     }
 }
