@@ -61,8 +61,6 @@ public class AssignmentOne {
         createAppointment(appointments, "Alice", "1234567890", "10:00-11:00", gp1); // Using gp1 as an example
         createAppointment(appointments, "Bob", "0987654321", "11:30-12:30", gp2); // Using gp2 as an example
 
-        // You would similarly add appointments for ep1 and ep2 if needed
-
         // Print existing appointments
         printExistingAppointments(appointments);
 
@@ -108,3 +106,6 @@ public class AssignmentOne {
         }
     }
 }
+
+//Onedrive： https://scuonline-my.sharepoint.com/:v:/g/personal/j_xun_10_student_scu_edu_au/ESfk4jxyZEFGizl7XcaG6T4BhyF7DogonXMZq8nT4E7oMg
+//GIthub： https://github.com/XunJH/username-A1
